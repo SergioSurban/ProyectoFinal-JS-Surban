@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:250,250italic,600,600italic");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css");
+
+p,
+select,
+input,
+span {
+    font-size: large;
+}
+
+table {
+    width: 90% !important;
+    margin-left: 5%;
+}
+
+.emoji-image {
+    font-size: 24px;
+}
+
+thead {
+    font-weight: 800;
+    font-size: larger;
+}
+
+tbody tr:hover {
+    background: rgba(0, 0, 0, 0.679);
+}
+
+.button-big-emoji {
+    font-size: x-large;
+}
+
+.toasti-msj {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(47, 40, 94);
+    color: lightcyan;
+    border-radius: 4px;
+    font-size: larger;
+}
+
+footer {
+    background-color: rgb(23, 208, 165);
+    font-weight: 800;
+    padding: 12px;
+}
+
+hr {
+    border-top: 2px solid orange !important;
+}
